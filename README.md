@@ -4,6 +4,4 @@
 <p style="text-align: center;"><span style="font-weight: 400;">so i write this project help to IT and Security protect on Linux System</span></p>
 <p style="text-align: center;"><span style="font-weight: 400;">if they not have dedicated software the company buy to do this</span></p>
 <p style="text-align: left;">Demo:</p>
-<p style="text-align: left;">&lt;&gt;</p>
-<p style="text-align: left;">&nbsp;</p>
-<script id="asciicast-3UNHSRbVDDQpAuNWYpgkH1Dgh" src="https://asciinema.org/a/3UNHSRbVDDQpAuNWYpgkH1Dgh.js" async></script>
+<a href="https://asciinema.org/a/3UNHSRbVDDQpAuNWYpgkH1Dgh" target="_blank"><img src="https://asciinema.org/a/3UNHSRbVDDQpAuNWYpgkH1Dgh.svg" /></a>
