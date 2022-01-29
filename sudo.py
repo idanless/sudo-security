@@ -50,7 +50,7 @@ def Main():
     sudo.AddNotallow('su')
     Verify = sudo.CheckSudo()
     if command in sudo.ListNotallow():
-        print(f'{username} you not allow run this command')
+        print(f'{username} you are not allowed  to run this command')
         sys.exit()
     if not Verify and not Flag:
         password = getpass.getpass(prompt)
