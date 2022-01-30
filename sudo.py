@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import sys
 import getpass
 import subprocess
@@ -24,7 +24,7 @@ class Sudo:
     def ListNotallow(self):
         return self.notAllow
     def CheckSudo(self):
-        check =self.shell.Popen('sudo -S id', shell=True, stdout=self.shell.PIPE, encoding='utf-8')
+        check =self.shell.Popen('/usr/bin/sudo -S id', shell=True, stdout=self.shell.PIPE, encoding='utf-8')
         if check.communicate():
             check.terminate()
             return True
@@ -33,7 +33,7 @@ class Sudo:
         global Flag
         Flag = True
         password = self.password
-        data = self.shell.Popen(['sudo', '-S', 'whoami'], stdin=self.shell.PIPE, stdout=self.shell.PIPE,
+        data = self.shell.Popen(['/usr/bin/sudo', '-S', 'whoami'], stdin=self.shell.PIPE, stdout=self.shell.PIPE,
                         stderr=self.shell.PIPE, encoding='utf-8').communicate(input=password + '\n')
         # print(command,Ver,data)
         if re.search('root', data[0]):
@@ -41,7 +41,7 @@ class Sudo:
         return False
 
     def runcomd(self,command):
-        self.shell.call('sudo -S ' + command, shell=True)
+        self.shell.call('/usr/bin/sudo -S ' + command, shell=True)
 
 
 
