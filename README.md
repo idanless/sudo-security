@@ -25,5 +25,10 @@
 <p><span style="font-weight: 400;">For example my username is &ldquo;Demo&rdquo; so I need to do &ldquo;nano&nbsp; /home/demo/.bashrc&rdquo; and my file is under tmp so -&gt; add this line &ldquo;alias sudo='python /tmp/sudo.py'&rdquo;.</span></p>
 <p><span style="font-weight: 400;">also here recommended change the read to root only&nbsp; </span></p>
 <p>&nbsp;</p>
+<p><strong>note:</strong></p>
+<p><span style="font-weight: 400;"><span style="text-decoration: underline;">most the OS linux should support basic Python3</span> but if you want be sure the OS will run it</span></p>
+<p><span style="font-weight: 400;">we can "compile it&rdquo; to be executable the compile must be running on same environment as</span></p>
+<p><span style="font-weight: 400;">you target the first &ldquo;install by pip </span><span style="font-weight: 400;">pyinstaller</span><span style="font-weight: 400;">&rdquo;&nbsp; then running &ldquo;</span><span style="font-weight: 400;">pyinstaller --onefile sudo.py&rdquo;</span></p>
+<p>&nbsp;</p>
 <p style="text-align: left;">Demo:</p>
 <a href="https://asciinema.org/a/lm5xs8ugeR07HAM6ntgpJfrBb" target="_blank"><img src="https://asciinema.org/a/lm5xs8ugeR07HAM6ntgpJfrBb.svg" /></a>
