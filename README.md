@@ -21,7 +21,7 @@
 <p><span style="font-weight: 400;">&nbsp;&nbsp;sudo chmod 100 /usr/local/bin/sudo</span></p>
 <p><span style="font-weight: 400;">now logout / login any user from now use your &ldquo;sudo py&rdquo;&nbsp;</span></p>
 <p>&nbsp;</p>
-<p><span style="font-weight: 400;">&nbsp; &nbsp; 2.</span><span style="font-weight: 400;">bese on&nbsp; &ldquo;profile&rdquo; any user that login in the first time to the linux server create a &nbsp; &nbsp; unique profile by his user this mean you can login as root edit and add &ldquo;alias&rdquo;</span></p>
+<p><span style="font-weight: 400;">&nbsp; &nbsp; 2.</span><span style="font-weight: 400;">bese on&nbsp; &ldquo;profile&rdquo; any user that login in the first time to the linux server create a unique profile by his user this mean you can login as root edit and add &ldquo;alias&rdquo;</span></p>
 <p><span style="font-weight: 400;">For example my username is &ldquo;Demo&rdquo; so I need to do &ldquo;nano&nbsp; /home/demo/.bashrc&rdquo; and my file is under tmp so -&gt; add this line &ldquo;alias sudo='python /tmp/sudo.py'&rdquo;.</span></p>
 <p><span style="font-weight: 400;">also here recommended change the read to root only&nbsp; </span></p>
 <p>&nbsp;</p>
