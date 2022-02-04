@@ -7,5 +7,23 @@
 <p style="text-align: center;"><strong>how this help ?</strong></p>
 <p><span style="font-weight: 400;">because this python is give many ways to integration for example you can</span></p>
 <p><span style="font-weight: 400;">assign it to the LDAP group&nbsp; for a list of commands or build profiles for users you don't trust in an easy way instead of changing the system configuration log user and any creative idea may have </span></p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><span style="font-weight: 400;">we have 2 ways to implement (the easy ways)</span></p>
+<p>&nbsp;</p>
+<ol>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">copy sudo.py to &ldquo;/usr/local/bin/&rdquo;&nbsp;</span></li>
+</ol>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">chmod +x sudo.py</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">then change the name from sudo,py to to sudo by &ldquo;mv&rdquo; command&nbsp;</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">&nbsp;then you need not allow read the script by change &ldquo;read by root only&rdquo;</span></li>
+</ul>
+<p><span style="font-weight: 400;">&nbsp;&nbsp;sudo chmod 100 /usr/local/bin/sudo</span></p>
+<p><span style="font-weight: 400;">now logout / login any user from now use your &ldquo;sudo py&rdquo;&nbsp;</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">&nbsp; &nbsp; 2.</span><span style="font-weight: 400;">bese on&nbsp; &ldquo;profile&rdquo; any user that login in the first time to the linux server create a &nbsp; &nbsp; unique profile by his user this mean you can login as root edit and add &ldquo;alias&rdquo;</span></p>
+<p><span style="font-weight: 400;">For example my username is &ldquo;Demo&rdquo; so I need to do &ldquo;nano&nbsp; /home/demo/.bashrc&rdquo; and my file is under tmp so -&gt; add this line &ldquo;alias sudo='python /tmp/sudo.py'&rdquo;.</span></p>
+<p><span style="font-weight: 400;">also here recommended change the read to root only&nbsp; </span></p>
+<p>&nbsp;</p>
 <p style="text-align: left;">Demo:</p>
 <a href="https://asciinema.org/a/lm5xs8ugeR07HAM6ntgpJfrBb" target="_blank"><img src="https://asciinema.org/a/lm5xs8ugeR07HAM6ntgpJfrBb.svg" /></a>
