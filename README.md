@@ -30,6 +30,6 @@
 <p><span style="font-weight: 400;">we can "compile it&rdquo; to be executable the compile must be running on same environment as</span></p>
 <p><span style="font-weight: 400;">you target the first &ldquo;install by pip </span><span style="font-weight: 400;">pyinstaller</span><span style="font-weight: 400;">&rdquo;&nbsp; then running &ldquo;</span><span style="font-weight: 400;">pyinstaller --onefile sudo.py&rdquo;</span></p>
 <p>&nbsp;</p>
-<p style="text-align: left;">Demo[in the demo video i do step 1 and not allow for example running “su” 
+<p style="text-align: left;">Demo[in the demo video im not allow for example running “su” 
 ]:</p>
 <a href="https://asciinema.org/a/lm5xs8ugeR07HAM6ntgpJfrBb" target="_blank"><img src="https://asciinema.org/a/lm5xs8ugeR07HAM6ntgpJfrBb.svg" /></a>
