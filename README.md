@@ -6,7 +6,7 @@
 <p style="text-align: center;">&nbsp;</p>
 <p style="text-align: center;"><strong>how this help ?</strong></p>
 <p><span style="font-weight: 400;">because this python is give many ways to integration for example you can</span></p>
-<p><span style="font-weight: 400;">assign it to the LDAP group&nbsp; for a list of commands or build profiles for users you don't trust in an easy way instead of changing the system configuration log user and any creative idea may have </span></p>
+<p><span style="font-weight: 400;">assign it to the LDAP group&nbsp; for a list of commands or build profiles for users you don't trust in a easy way instead of changing the system configuration log user etc ... and any creative idea may have </span></p>
 <p>&nbsp;</p>
 <p style="text-align: center;"><span style="font-weight: 400;">we have 2 ways to implement (the easy ways)</span></p>
 <p>&nbsp;</p>
