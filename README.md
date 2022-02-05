@@ -26,8 +26,8 @@
 <p><span style="font-weight: 400;">also here recommended change by root only&nbsp; </span></p>
 <p>&nbsp;</p>
 <p><strong>note:</strong></p>
-<p><span style="font-weight: 400;"><span style="text-decoration: underline;">most the OS linux should support basic Python3</span> but if y</span></p>
-<p><span style="font-weight: 400;">ou want be sure the OS will run it</span></p>
+<p><span style="font-weight: 400;"><span style="text-decoration: underline;">most the OS linux should support basic Python3</span> but if </span></p>
+<p><span style="font-weight: 400;">you want be sure the OS will run it</span></p>
 <p><span style="font-weight: 400;">we can "compile it&rdquo; to be executable the compile must be running on same environment as</span></p>
 <p><span style="font-weight: 400;">you target the first &ldquo;install by pip </span><span style="font-weight: 400;">pyinstaller</span><span style="font-weight: 400;">&rdquo;&nbsp; then running &ldquo;</span><span style="font-weight: 400;">pyinstaller --onefile sudo.py&rdquo;.</span></p>
 <p><span style="font-weight: 400;">Last thing consider the script is clear text if you do not </span><span style="font-weight: 400;">compile&nbsp; it, be aware of that .</span></p>
